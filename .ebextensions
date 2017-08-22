@@ -1,0 +1,11 @@
+files:
+    "/etc/yum.repos.d/public-yum-el5.repo":
+        mode: "000755"
+        owner: root
+        group: root
+        source: https://s3-ap-southeast-1.amazonaws.com/elasticbeanstalk-repo/public-yum-el5.repo
+packages:
+    yum:
+        libgcj: []
+    rpm:
+        pdftk: https://s3-ap-southeast-1.amazonaws.com/elasticbeanstalk-repo/pdftk-2.02-1.x86_64.rpm
